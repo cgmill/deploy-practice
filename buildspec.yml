@@ -17,8 +17,8 @@ phases:
       - echo Pushing the Docker image...
       - docker push $ECR_REPO_URI:latest
       - docker push $ECR_REPO_URI:$CODEBUILD_RESOLVED_SOURCE_VERSION
+      - echo Writing image definition to imagedefinitions.json
       - printf '[{"name":"my-app","imageUri":"%s"}]' $ECR_REPO_URI:$CODEBUILD_RESOLVED_SOURCE_VERSION > imagedefinitions.json
-      - cat imagedefinitions.json
 artifacts:
-    files: 
-      - imagedefinitions.json
+    files: imagedefinitions.json
+
