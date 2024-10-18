@@ -17,6 +17,8 @@ terraform destroy
 ```
 
 # TODO
-- Remove hardcoded values specific to my GitHub repository
+- Move hardcoded values to variables.tf file
+    - GitHub repository
 - Break up main.tf into multiple files
-
+- Rename resources
+- Review policies for mistakes and principal of least privilege
