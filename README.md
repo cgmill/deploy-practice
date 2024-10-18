@@ -1,5 +1,5 @@
 # Basic Terraform Project
-I created this project to learn how to use terraform. Currently, main.tf is used to set up a load balancer that directs incoming HTTP traffic to an ECS cluster. Below are the steps to deploy the project.
+I created this project to learn how to use terraform and familiarize myself with a CI/CD pipeline. Currently, main.tf is used to set up a load balancer that directs incoming HTTP traffic to an ECS cluster. Below are the steps to deploy the project.
 
 
 # Usage
@@ -19,6 +19,6 @@ terraform destroy
 # TODO
 - Move hardcoded values to variables.tf file
     - GitHub repository
-- Break up main.tf into multiple files
+- ~ Break up main.tf into multiple files ~ 
 - Rename resources
 - Review policies for mistakes and principal of least privilege
