@@ -1,3 +1,5 @@
 # Ignore dot files
 .*
 !.gitignore
+*.tfstate
+*.tfstate.*
