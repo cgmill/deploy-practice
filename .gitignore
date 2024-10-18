@@ -1,0 +1,3 @@
+# Ignore dot files
+.*
+!.gitignore
